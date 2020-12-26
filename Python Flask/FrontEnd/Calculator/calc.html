@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link href = "calc.css" rel="stylesheet">
+        <script src="calc.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Simple Calculator</h1>
+            <p>Website that provides a simple calculator to perform computations</p>
+        </header>
+        <main>
+            <div id="calculator">
+                <input id="query" type="text" disabled>
+                <div id="calculator-pad">
+                    <div class="pad-row">
+                        <input id='ce' type="button" value='CE'>
+                        <input id='c' type="button" value='C'>
+                        <input class="show" id="sqroot" type="button" value="\/">
+                        <input id="perc" type="button" value="%">
+                        <input id='equals' type="button" value="=">
+                    </div>
+
+                    <div class="pad-row">
+                        <input class="show" id='seven' type="button" value='7'>
+                        <input class="show" id='eight' type="button" value='8'>
+                        <input class="show" id='nine' type="button" value='9'>
+                        <input class="show" id="divide" type="button" value="/">
+                        <input class="show" id='product' type="button" value="*">
+                    </div>
+                    
+                    <div class="pad-row">
+                        <input class="show" id='four' type="button" value='4'>
+                        <input class="show" id='five' type="button" value='5'>
+                        <input class="show" id='six' type="button" value='6'>
+                        <input class="show" id='sum' type="button" value="+">
+                        <input class="show" id="diff" type="button" value="-">
+                    </div>
+                    
+                    <div class="pad-row">
+                        <input class="show" id="zero" type="button" value="0">
+                        <input class="show" id='one' type="button" value='1'>
+                        <input class="show" id='two' type="button" value='2'>
+                        <input class="show" id='three' type="button" value='3'>
+                        <input class="show" id='dot' type="button" value=".">
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

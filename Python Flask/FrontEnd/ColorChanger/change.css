@@ -1,0 +1,30 @@
+body {
+    width: 200 px;
+    height: 200 px;
+    margin-right: 500 px;
+    padding: 100 px;
+    text-align: center;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#red {
+    background-image: -webkit-linear-gradient(45deg, white, red);
+}
+
+#blue {
+    background-image: -webkit-linear-gradient(45deg, white, blue);
+}
+
+#green {
+    background-image: -webkit-linear-gradient(45deg, white, green);
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello Form</title>
+        <link href="hello.css" rel="stylesheet">
+        <script src="hello.js"></script>
+    </head>
+    <body>
+        <div id='greet_form'> 
+            <header>
+                <h1>Hello Form</h1>
+                <p>Form that Greets the user who submits it</p>
+            </header>
+            <main>
+                <form onsubmit = "greet_user()">
+                    <input id = "name" autocomplete="off" autofocus placeholder="Enter your name here" type = "text">
+                    <input type="submit" value = "Greet Me!">
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
