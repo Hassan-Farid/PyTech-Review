@@ -1,0 +1,33 @@
+body {
+    width: 250px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 150px;
+    padding: 25px;
+}
+
+#greet_form {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+}
+
+header p {
+    color: #00002F;
+}
+
+form {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+input {
+    margin: 5px;
+    padding: 2px;
+}
